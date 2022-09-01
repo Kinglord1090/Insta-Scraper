@@ -13,9 +13,9 @@ Step 2) Make sure both the python script and the chromedriver are in the same fo
 
 Step 3) Make sure python is included in Path in environment variables.
 
-Step 4) Open cmd and change directories to the folder which contain the script.
+Step 4) Open cmd and change directories to the folder which contains the script.
 
-Step 5) Run the scripy by typing-
+Step 5) Run the script by typing-
         ```py instaScraper.py```
 
 Step 6) Enter your login details(None of these data are saved, locally or over the internet) and your target's username.
