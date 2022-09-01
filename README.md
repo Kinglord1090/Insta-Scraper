@@ -5,6 +5,17 @@ With this simple Insta-Scraper, you can get access to information like, user-pro
 This is useful to anyone who is trying to get data quickly about a certain group of people.
 
 
+## Installation
+
+```Console
+# Clone the repository
+$ git clone https://github.com/Kinglord1090/Insta-Scraper.git
+
+# Install the requirements
+$ python3 -m pip install -r requirements.txt
+```
+
+
 ## Usage
 
 Step 1) Downlaod the latest version or your specific chrome-version appropraite version of chromedriver from [here](https://chromedriver.chromium.org/downloads).
