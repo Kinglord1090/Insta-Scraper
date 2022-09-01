@@ -5,7 +5,8 @@ With this simple Insta-Scraper, you can get access to information like, user-pro
 This is useful to anyone who is trying to get data quickly about a certain group of people.
 
 
-## Guide-
+## Guide
+
 Step 1) Downlaod the latest version or your specific chrome-version appropraite version of chromedriver from [here](https://chromedriver.chromium.org/downloads).
 
 Step 2) Make sure both the python script and the chromedriver are in the same folder.
