@@ -1,9 +1,8 @@
-# Imports
 from selenium import webdriver
 from selenium.common import exceptions
 import time
 
-# Variables
+
 username = input("Enter your username: ")
 password = input("Enter your password: ")
 profile = input("Enter target username: ")
@@ -13,7 +12,6 @@ options.add_argument('headless')
 driver = webdriver.Chrome(options=options, executable_path=r"C:\Users\lenovo\Desktop\EXTRA\chromedriver.exe")
 
 
-# Solver
 driver.get(url)
 
 time.sleep(5)
