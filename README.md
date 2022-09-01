@@ -5,7 +5,7 @@ With this simple Insta-Scraper, you can get access to information like, user-pro
 This is useful to anyone who is trying to get data quickly about a certain group of people.
 
 
-## Guide
+## Usage
 
 Step 1) Downlaod the latest version or your specific chrome-version appropraite version of chromedriver from [here](https://chromedriver.chromium.org/downloads).
 
