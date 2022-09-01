@@ -18,7 +18,7 @@ $ python3 -m pip install -r requirements.txt
 
 ## Usage
 
-```Step 1) Downlaod the latest version or your specific chrome-version appropraite version of chromedriver from [here](https://chromedriver.chromium.org/downloads).
+Step 1) Downlaod the latest version or your specific chrome-version appropraite version of chromedriver from [here](https://chromedriver.chromium.org/downloads).
 
 Step 2) Make sure both the python script and the chromedriver are in the same folder.
 
@@ -32,4 +32,3 @@ Step 5) Run the script by typing-
 Step 6) Enter your login details(None of these data are saved, locally or over the internet) and your target's username.
 
 Step 7) Enjoy your results!
-```
