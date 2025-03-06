@@ -1,34 +1,62 @@
-# Insta-Scraper
 
-Instagram is a photo and video sharing social networking service founded in 2010 by Kevin Systrom and Mike Krieger, and later acquired by American company Facebook Inc., now known as Meta Platforms.
-With this simple Insta-Scraper, you can get access to information like, user-provided name, number of posts uploaded by user, number of followers and following list as well as description of public accounts within a short amount of time.
-This is useful to anyone who is trying to get data quickly about a certain group of people.
+# Insta-Scraper 📸
 
+Insta-Scraper is a tool designed to quickly extract information from public Instagram profiles, such as the user-provided name, number of posts, followers, following count, and profile description. This tool uses Selenium to automate the data extraction process, making it useful for gathering insights about public profiles efficiently.
+
+## Features
+
+- **Automated Data Extraction**: Uses Selenium to log in and fetch information from Instagram profiles automatically.
+- **Profile Information Retrieval**: Extracts name, post count, followers, following count, and bio description of the target profile.
+- **Headless Mode**: Operates in headless mode for efficiency and to avoid UI interruptions during scraping.
+- **Error Handling**: Implements basic error handling for cases where elements might not be found.
+- **Privacy Focused**: Does not save or transmit login details locally or over the internet.
+- **Extensible Codebase**: Code is structured for easy modifications and additional features.
 
 ## Installation
 
-```Console
-# Clone the repository
-$ git clone https://github.com/Kinglord1090/Insta-Scraper.git
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/Kinglord1090/insta-scraper.git
+    ```
 
-# Install the requirements
-$ python3 -m pip install -r requirements.txt
-```
+2. Install the required Python libraries:
+    ```bash
+    python3 -m pip install -r requirements.txt
+    ```
 
+## Setup
+
+1. **Download Chromedriver**:  
+   Download the latest or your specific Chrome version of Chromedriver from [here](https://chromedriver.chromium.org/downloads).  
+
+2. **Place Chromedriver**:  
+   Ensure that both the Python script (`insta-scraper.py`) and Chromedriver are in the same folder.  
+
+3. **Set Environment Variables**:  
+   Make sure Python is included in the PATH environment variables.  
 
 ## Usage
 
-Step 1) Downlaod the latest version or your specific chrome-version appropraite version of chromedriver from [here](https://chromedriver.chromium.org/downloads).
+1. Open the terminal and navigate to the script’s directory:
+    ```bash
+    cd insta-scraper
+    ```
 
-Step 2) Make sure both the python script and the chromedriver are in the same folder.
+2. Run the script:
+    ```bash
+    python insta-scraper.py
+    ```
 
-Step 3) Make sure python is included in Path in environment variables.
+3. Enter your Instagram login credentials and the target username when prompted.  
+   > **Note:** None of these details are saved locally or transmitted over the internet.
 
-Step 4) Open cmd and change directories to the folder which contains the script.
+4. View the extracted profile information directly in the terminal.
 
-Step 5) Run the script by typing-
-        ```py instaScraper.py```
+## License
 
-Step 6) Enter your login details(None of these data are saved, locally or over the internet) and your target's username.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Step 7) Enjoy your results!
+## Acknowledgments
+
+- Thanks to [Selenium](https://www.selenium.dev/) for providing the automation framework.  
+- Inspired by the need for efficient data gathering tools for public profiles.  
